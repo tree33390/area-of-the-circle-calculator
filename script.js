@@ -27,3 +27,16 @@ document.querySelector("#answer2").textContent = areaofrectangle;
 
 });
 
+document.querySelector("#calc-btn3").addEventListener("click", function() {
+
+var distance = document.querySelector("#theDistance").value;
+var distance2 = parseInt(distance);
+
+var time = document.querySelector("#theTime").value;
+var time2 = parseInt(time); 
+
+var rate = distance2/time2; 
+
+document.querySelector("#answer3").textContent = rate                       
+
+});
